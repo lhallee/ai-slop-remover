@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Slop Remover"
+  short_description: "Simplify Python and write technical text in STE"
+  default_prompt: "Use $ai-slop-remover to review or simplify this working Python in Logan's preferred style without changing behavior or expanding scope. Write all documentation and Markdown in ASD-STE100 Simplified Technical English, and keep code comments concise and close to STE."
