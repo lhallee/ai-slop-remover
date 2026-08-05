@@ -1,0 +1,7 @@
+interface:
+  display_name: "Apply Coding Standards"
+  short_description: "Convert working Python without behavior changes"
+  default_prompt: "Use $apply-coding-standards to convert this working Python without changing behavior."
+
+policy:
+  allow_implicit_invocation: true

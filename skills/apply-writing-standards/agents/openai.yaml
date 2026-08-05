@@ -1,0 +1,7 @@
+interface:
+  display_name: "Apply Writing Standards"
+  short_description: "Draft, revise, or audit prose for its medium"
+  default_prompt: "Use $apply-writing-standards to draft, revise, or audit this piece for its medium and audience."
+
+policy:
+  allow_implicit_invocation: true

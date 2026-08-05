@@ -1,51 +1,67 @@
-# AI Slop Remover
+# Coding and Writing Standards
 
-AI Slop Remover is a Codex skill that makes working Python easier to maintain without changing its intended behavior. It uses direct control flow, precise types, domain language, clear module boundaries, and complete tensor-shape traces. It also requires ASD-STE100 Simplified Technical English for documentation.
+Coding and Writing Standards is a four-skill Codex suite for direct Python, concise prose, evidence-based claims, consistent mathematical notation, and behavior-preserving cleanup workflows.
 
-## Install with Codex
+## Install all four skills
 
-Give this link to Codex:
-
-```text
-https://github.com/lhallee/ai-slop-remover/tree/main/skills/ai-slop-remover
-```
-
-Then ask:
+Ask Codex:
 
 ```text
-Install the Codex skill from this GitHub link.
+Install all four Codex skills from https://github.com/lhallee/coding-and-writing-standards:
+skills/coding-standards
+skills/writing-standards
+skills/apply-coding-standards
+skills/apply-writing-standards
 ```
 
-Codex can use its `skill-installer` workflow to install the skill. The skill is available on the next turn after installation.
-
-## Install with the Codex helper script
-
-Run the installer supplied with Codex:
+Or use the Codex installer directly:
 
 ```text
-python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --url https://github.com/lhallee/ai-slop-remover/tree/main/skills/ai-slop-remover
+python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo lhallee/coding-and-writing-standards --path skills/coding-standards skills/writing-standards skills/apply-coding-standards skills/apply-writing-standards
 ```
 
-On Windows PowerShell, run:
+On Windows PowerShell:
 
 ```powershell
-python "$env:USERPROFILE\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py" --url https://github.com/lhallee/ai-slop-remover/tree/main/skills/ai-slop-remover
+python "$env:USERPROFILE\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py" --repo lhallee/coding-and-writing-standards --path skills/coding-standards skills/writing-standards skills/apply-coding-standards skills/apply-writing-standards
 ```
 
-Restart Codex or start a new task after installation.
+Start a new Codex task after installation.
 
-## Use the skill
-
-Invoke the skill by name:
+## Use the suite
 
 ```text
-Use $ai-slop-remover to simplify this working Python without changing behavior.
+Use $coding-standards while implementing this Python change.
 ```
 
-## Repository layout
+```text
+Use $writing-standards to draft this text concisely and correctly.
+```
 
-The installable skill is in [`skills/ai-slop-remover`](skills/ai-slop-remover). It includes the skill instructions, UI metadata, reference documents, and the Windows Python resolver.
+```text
+Use $apply-coding-standards to convert this working Python without changing behavior.
+```
+
+```text
+Use $apply-writing-standards to draft, revise, or audit this piece for its medium and audience.
+```
+
+The application skills require their sibling standards skills. Install the complete suite even if you expect to invoke only one workflow.
+
+## Migrate from the previous skills
+
+Install this suite, start a new Codex task, and test the new invocations. Then remove an installed copy of `ai-slop-remover` if it is present and no longer needed. Installation does not alter any existing personal skills.
+
+## Language checker
+
+The writing standards include a non-destructive advisory checker:
+
+```text
+python skills/writing-standards/scripts/audit_language.py <file-or-directory>
+```
+
+The checker reports em dashes, AI-associated terms, stock phrases, repeated sentence openings, and decorative adjective lists. It does not edit files or determine whether text was written by AI.
 
 ## License
 
-This repository uses the MIT License. See [`LICENSE`](LICENSE).
+This repository uses the MIT License. See [LICENSE](LICENSE).

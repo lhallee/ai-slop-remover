@@ -28,8 +28,6 @@ if ($env:CONDA_PREFIX) {
     }
 }
 
-# Codex Desktop supplies this verified runtime on Windows when no project
-# environment has been created yet. Prefer a project environment above it.
 if ($env:USERPROFILE) {
     $codexRuntime = Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
     $candidates += [PSCustomObject]@{
@@ -77,6 +75,7 @@ foreach ($candidate in $candidates) {
     catch {
         continue
     }
+
     if ($LASTEXITCODE -eq 0) {
         [PSCustomObject]@{
             executable = $candidate.Executable

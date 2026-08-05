@@ -1,0 +1,7 @@
+interface:
+  display_name: "Writing Standards"
+  short_description: "Write concise, correct, evidence-led prose"
+  default_prompt: "Use $writing-standards to draft this text concisely and correctly."
+
+policy:
+  allow_implicit_invocation: true
