@@ -18,7 +18,7 @@ Apply rules in this order:
 - Require every sentence, paragraph, section, example, table, helper, abstraction, and module to add information, clarify reasoning, or reduce material risk.
 - Remove repeated conclusions, narrative comments, decorative structure, unnecessary examples, speculative abstractions, and wrappers that only rename another operation.
 - Prefer one clear paragraph over a report-shaped answer when one paragraph is sufficient.
-- Add length only to explain a difficult mechanism, establish evidence, preserve necessary nuance, or communicate an elegant idea clearly.
+- Add length to explain a difficult mechanism, establish evidence, preserve necessary nuance, develop a meaningful story, or communicate an elegant idea clearly. Keep the context that lets the reader care about the outcome.
 - Obey a required format or length, but do not fill available space merely because it exists.
 
 ## Support claims with evidence
@@ -32,6 +32,8 @@ Distinguish these evidence levels:
 - **Future work:** describe planned or possible work in future or conditional language.
 
 Attribute scientific and factual claims to their sources. Name benchmark conditions, controls, data splits, and evaluation protocols when they change the interpretation. Keep model scores, predictions, rankings, and generated candidates distinct from experimental confirmation.
+
+These evidence levels are accuracy checks, not a required sequence of paragraphs. State supported results confidently and qualify them where the qualification changes the meaning. Public writing need not end with limitations or missing tests. For blogs and social posts, use `storytelling.md` to establish stakes and connect the problem, action, outcome, and goal without inflating the evidence.
 
 Base code claims on repository code, tests, configuration, or current authoritative documentation. Do not call an API deprecated, a method faster, or behavior guaranteed without evidence. Routine code comments do not need citations when the code is sufficient evidence.
 

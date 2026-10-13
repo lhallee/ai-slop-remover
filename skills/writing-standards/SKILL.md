@@ -1,11 +1,11 @@
 ---
 name: writing-standards
-description: Apply concise, correct, evidence-led writing standards while drafting, editing, or reviewing prose. Use when a user asks Codex to follow the suite's shared standards for concision, claims, attribution, terminology, mathematical notation, direct language, or avoidance of AI-associated wording in scientific, technical, professional, public, or code-facing writing. Use apply-writing-standards for a medium-specific drafting, revision, or audit workflow.
+description: Apply concise, correct, evidence-led writing standards while drafting, editing, or reviewing prose. Use for concision, claims, attribution, terminology, mathematical notation, direct language, removal of AI-associated wording, and compelling hooks and storytelling in blogs or social posts. Covers scientific, technical, professional, public, and code-facing writing. Use apply-writing-standards for a medium-specific workflow.
 ---
 
 # Writing Standards
 
-Write the shortest complete version that preserves the idea, evidence, and necessary nuance.
+Write a complete, purposeful piece that preserves the idea, evidence, voice, and necessary nuance. Make public writing worth reading as well as concise.
 
 ## Load the canonical rules
 
@@ -13,11 +13,13 @@ Confirm that `../coding-standards/SKILL.md`, `../apply-coding-standards/SKILL.md
 
 Read `references/shared-standards.md` for concision, evidence, terminology, and mathematical notation. Read `references/ai-language.md` whenever drafting or editing human-facing language.
 
+For blogs, essays, social posts, and launch stories, also read `references/storytelling.md`. Select a reader-relevant angle before sentence cleanup: hook, problem, why, action, outcome, and goal, informed by timing, significance, proximity, prominence, human interest, and novelty. Use the pillars that fit, never all six by obligation.
+
 Treat these references as canonical for the full suite. Other skills may extend them for a domain, but must not redefine them.
 
 ## Build the argument directly
 
-Use this progression when it fits the material:
+For analytical prose, use this progression when it fits the material. Public stories follow the storytelling reference; neither progression is a mandatory template:
 
 1. Name the object or problem.
 2. State the result, decision, or thesis.

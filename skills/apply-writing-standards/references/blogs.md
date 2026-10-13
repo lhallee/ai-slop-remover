@@ -2,6 +2,8 @@
 
 Use this profile for technical research blogs, public explainers, model and validation posts, personal essays, and speculative science writing.
 
+Read `../../writing-standards/references/storytelling.md` first. Choose the angle through the relevant pillars, then weave the hook, problem, why, action, outcome, and goal into the piece. A LinkedIn article or newsletter belongs here; it should not inherit a feed post's compressed cadence.
+
 ## Shared blog voice
 
 - Explain difficult ideas as if speaking with an intelligent colleague.
@@ -15,24 +17,17 @@ Make light humor the default unless the subject or audience makes it inappropria
 
 ## Technical blog
 
-Use this sequence when it fits:
+Open with a concrete puzzle, obstacle, experience, or result whose stakes the reader can grasp. Establish why it matters early. Then let the investigation or argument carry the reader from the problem through the important choices to the outcome. Explain methods, controls, and mechanisms at the point where they answer the reader's next question, rather than front-loading a miniature paper.
 
-1. State the technical or scientific problem and the short result.
-2. Explain the object, input, transformation, and output.
-3. Describe the experiment and relevant controls.
-4. Report the measured results.
-5. Interpret what the result means.
-6. Explain what failed or remained uncertain.
-7. Name the next experiment that follows from the failure.
-8. State what the work does not prove.
+Give the result its full supported force and connect it to the original problem. Include a failure, objection, or uncertainty when it changes the interpretation or advances the story. A limitations section, failed attempt, or next experiment is not compulsory. End on the earned insight, consequence, or goal that follows from the work.
 
-Use figures and tables only when they answer a question that prose cannot answer as clearly. A technical blog should make the mechanism legible before asking the reader to care about the result.
+Use figures and tables when they answer a question more clearly than prose. Give the reader a reason to care before requiring detailed understanding of the mechanism. Keep enough technical depth to fulfill the opening's promise.
 
 ## Speculative or personal essay
 
 Use this sequence when it fits:
 
-1. Start from a concrete object, toy system, or intuition.
+1. Start from a concrete object, toy system, experience, or intuition that opens a question worth following.
 2. Move across domains or scales only after defining the shared abstraction.
 3. State the useful general principle.
 4. Identify where rigor ends or the analogy could become too broad.
@@ -43,9 +38,10 @@ Mark speculation locally. State measured facts firmly, then identify interpretat
 
 ## Final check
 
-- Does the opening contain the real thesis rather than a teaser?
+- Does the opening earn attention with a specific angle and establish why the reader should care? Does the piece deliver on that promise?
+- Is the problem connected to the outcome through intelligible choices, evidence, or reasoning?
 - Does every section add a new mechanism, result, scale, objection, or consequence?
-- Are negative results and limitations stated directly?
+- Are material negative results and limitations stated directly where they affect the claim, without turning the essay into a checklist?
 - Does humor help the reader follow the idea?
 - Is any recurring phrase becoming a manufactured voice?
 - Does the ending add a final insight instead of repeating the opening?

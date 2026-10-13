@@ -1,11 +1,11 @@
 ---
 name: apply-writing-standards
-description: Draft, revise, or audit prose with the suite's writing standards and medium-specific best practices. Use for scientific publications, technical or speculative blogs, LinkedIn and outreach, grants and reports, peer reviews, career materials, bios, and meeting talk tracks, especially when the user asks to apply or convert text to the writing standards. Preserve source fidelity, claim boundaries, concise structure, and the requested audience and medium.
+description: Draft, revise, or audit prose with the suite's writing standards and medium-specific best practices. Use for scientific publications, blogs, essays, social posts, LinkedIn and outreach, grants and reports, peer reviews, career materials, and meeting talk tracks. Strengthen hooks, stakes, storytelling, and outcomes while preserving source fidelity, authorial voice, user edits, and the requested audience and medium.
 ---
 
 # Apply Writing Standards
 
-Produce the shortest complete piece that fits its medium, audience, evidence, and purpose.
+Produce a compelling, complete piece that fits its medium, audience, evidence, and purpose. Remove words that do no work, while keeping the context and voice that make the piece worth reading.
 
 ## Load the standards
 
@@ -27,7 +27,7 @@ Choose one primary profile and at most one secondary profile. Read only the rele
 
 - Scientific papers, abstracts, methods, results, discussions, conclusions, limitations, captions, and journal responses: `references/scientific-publications.md`
 - Technical or speculative blogs and essays: `references/blogs.md`
-- LinkedIn posts, launch notes, direct outreach, and short public updates: `references/linkedin-outreach.md`
+- LinkedIn feed posts, other social posts, launch notes, direct outreach, and short public updates: `references/linkedin-outreach.md`
 - Grant proposals, progress reports, final reports, impact statements, and funder responses: `references/grants-reports.md`
 - Journal reviews, editorial notes, reviewer responses, and methodological critiques: `references/peer-review.md`
 - Bios, CV summaries, cover letters, application answers, and professional statements: `references/career-materials.md`
@@ -35,9 +35,11 @@ Choose one primary profile and at most one secondary profile. Read only the rele
 
 ## Draft or revise
 
-Start with the actual object, result, decision, or thesis. Add only the evidence and explanation the reader needs. Keep qualifications beside the claims they limit. Use the shared mathematical notation in equations, captions, and prose.
+For blogs, essays, social posts, and launch stories, read `../writing-standards/references/storytelling.md`. Choose the strongest truthful angle for the reader, then connect the hook, problem, why, action, outcome, and goal. Draw on the relevant story pillars without forcing all six. Treat a LinkedIn article as a blog, not an elongated feed post. Treat direct outreach as a personal message, not a public story.
 
-For revision, remove content before adding content. Preserve useful voice, technical terminology, and deliberate structure. Do not make informal writing uniformly formal or make scientific writing artificially casual.
+For other forms, start with the actual object, result, decision, or thesis. Add the evidence and explanation the reader needs. Keep qualifications beside the claims they limit. Use the shared mathematical notation in equations, captions, and prose.
+
+For revision, read the source first and preserve user edits, useful voice, technical terminology, and deliberate structure. Respect a minimal-edit request. Cut repetition, but add a missing connection or necessary stakes when that solves the actual problem. Do not make informal writing uniformly formal or make scientific writing artificially casual.
 
 For technical and speculative blogs, use a light humorous beat when it fits the subject and audience. Let it clarify an analogy, release tension after a dense passage, or acknowledge uncertainty. Do not force a joke or soften a measured result.
 
@@ -53,6 +55,7 @@ Resolve `<absolute-writing-standards-dir>` from the sibling `writing-standards/S
 
 Then check:
 
+- For public stories, does the opening earn attention from this audience, does the problem have clear stakes, and does the outcome fulfill the hook? Apply the storytelling reference's review before word-level cleanup.
 - Does every fact, metric, citation, date, and publication status come from a source?
 - Does claim strength match the evidence?
 - Does mathematical notation remain consistent?
